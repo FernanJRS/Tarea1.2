@@ -6,7 +6,7 @@ class ParteSuperior extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-        padding: const EdgeInsets.only(top: 60, bottom: 15),
+        padding: const EdgeInsets.only(top: 40, bottom: 15),
         child: Center(
           child: Column(children: [
             Padding(
@@ -32,15 +32,15 @@ class ParteSuperior extends StatelessWidget {
                   fontSize: 14),
             ),
             Padding(
-              padding: const EdgeInsets.all(15.0),
+              padding: const EdgeInsets.all(12.0),
               child: FloatingActionButton.extended(
-                extendedPadding: EdgeInsets.all(15.0),
+                extendedPadding: EdgeInsets.all(12.0),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.all(Radius.circular(30))),
                 onPressed: null,
                 label: Text(
                   'Edit profile',
-                  style: TextStyle(color: Colors.white, fontSize: 18),
+                  style: TextStyle(color: Colors.white, fontSize: 16),
                 ),
                 backgroundColor: Colors.black,
               ),

@@ -49,7 +49,7 @@ class InventoriesCard extends StatelessWidget {
                           child: Text(
                             'My stores',
                             style: TextStyle(
-                                fontSize: 18,
+                                fontSize: 16,
                                 fontWeight: FontWeight.w500,
                                 color: Colors.black87),
                           ),
@@ -57,11 +57,11 @@ class InventoriesCard extends StatelessWidget {
                         Padding(
                           padding: const EdgeInsets.only(top: 5),
                           child: CircleAvatar(
-                            radius: 14,
+                            radius: 12,
                             backgroundColor: Colors.green[700],
                             child: Text('2',
                                 style: TextStyle(
-                                    fontSize: 14, color: Colors.white)),
+                                    fontSize: 12, color: Colors.white)),
                           ),
                         ),
                       ],
@@ -96,8 +96,10 @@ class InventoriesCard extends StatelessWidget {
                     ),
                     title: Text(
                       'Support',
-                      style:
-                          TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w500,
+                      ),
                     ),
                     trailing: Icon(Icons.arrow_forward_outlined),
                   ),

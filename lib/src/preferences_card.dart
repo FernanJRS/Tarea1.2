@@ -30,7 +30,7 @@ class PreferencesCard extends StatelessWidget {
                     title: Text(
                       'Push notifications',
                       style: TextStyle(
-                          fontSize: 18,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                           color: Colors.black87),
                     ),
@@ -60,7 +60,7 @@ class PreferencesCard extends StatelessWidget {
                   title: Text(
                     'Face ID',
                     style: TextStyle(
-                        fontSize: 18,
+                        fontSize: 16,
                         fontWeight: FontWeight.w500,
                         color: Colors.black87),
                   ),
@@ -101,7 +101,10 @@ class PreferencesCard extends StatelessWidget {
                   ),
                   title: Text(
                     'PIN Code',
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w500,
+                    ),
                   ),
                   trailing: Padding(
                     padding: const EdgeInsets.only(top: 8),
@@ -131,7 +134,7 @@ class PreferencesCard extends StatelessWidget {
                     title: Text(
                       'Logout',
                       style: TextStyle(
-                          fontSize: 18,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                           color: Colors.red[900]),
                     ),

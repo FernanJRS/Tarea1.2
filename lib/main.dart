@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Column(
-          children: [
+        body: ListView(
+          children: const [
             ParteSuperior(),
             InventoriesCard(),
             PreferencesCard(),
