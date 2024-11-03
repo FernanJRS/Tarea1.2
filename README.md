@@ -1,1 +1,0 @@
-Trabajo realizado por: Fernando Josué Rivera Sosa
